@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 Beintoo Licensed under the Apache License, Version 2.0 
+	(the "License"); you may not use this file except in compliance with the 
+	License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/myScroll" android:layout_width="fill_parent"
+	android:scrollbars="vertical" android:layout_height="fill_parent"
+	android:fillViewport="true">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:id="@+id/maincontainer"
+		android:orientation="vertical" android:background="#dddddd">
+		<include layout="@layout/beintoobarsmall" />
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="1dip" android:background="#FFFFFF" android:id="@+id/whiteline"></LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/loading"
+			android:gravity="center"></LinearLayout>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="vertical" android:id="@+id/goodcontent"
+			android:layout_height="wrap_content" android:layout_marginTop="0dip">
+			<!-- PROFILE CONTENT -->
+			<LinearLayout android:layout_width="fill_parent"
+				android:id="@+id/textlayout" android:layout_height="104dip"
+				android:paddingLeft="10dip" android:gravity="center_vertical">
+
+				<com.beintoo.beintoosdkutility.LoaderImageView
+					android:id="@+id/profilepict" android:layout_height="83dip"
+					android:layout_width="83dip" />
+
+				<LinearLayout android:orientation="vertical"
+					android:layout_margin="10dip" android:layout_height="wrap_content"
+					android:layout_width="145dip">
+					<TextView android:id="@+id/nickname" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Nickname"
+						android:textColor="#000000" />
+					<TextView android:id="@+id/level" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Level"
+						android:textColor="#878485" />
+					<TextView android:id="@+id/bedollars"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Bedollars" android:textColor="#878485" />
+					<TextView android:id="@+id/salary" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:textColor="#000000"
+						android:text="Weekly salary" android:visibility="invisible" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="1dip" android:background="#8F9193"
+				android:id="@+id/grayline"></LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="1dip" android:background="#FFFFFF"
+				android:id="@+id/whiteline"></LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:id="@+id/toolbar" android:orientation="horizontal"
+				android:gravity="center_vertical" android:layout_height="60dip">
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/a"
+					android:orientation="vertical" android:gravity="center" android:layout_weight="1">
+					<ImageButton android:id="@+id/friendsbt"
+						android:background="@drawable/button_rollover" android:src="@drawable/friends"
+						android:paddingBottom="0dip" android:paddingTop="0dip"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+					<TextView android:id="@+id/friends" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="@string/friends"
+						android:textColor="#FFFFFF" android:textSize="12dip" />
+				</LinearLayout>
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/a"
+					android:orientation="vertical" android:gravity="center" android:layout_weight="1">
+					<ImageButton android:id="@+id/balancebt" android:src="@drawable/balance"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"
+						android:paddingBottom="0dip"
+						android:paddingTop="0dip" android:background="@drawable/button_rollover" />
+					<TextView android:id="@+id/balance" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="@string/balance"
+						android:textColor="#FFFFFF" android:textSize="12dip" />
+				</LinearLayout>
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/a"
+					android:orientation="vertical" android:gravity="center" android:layout_weight="1">
+					<ImageButton android:id="@+id/alliancebt" android:src="@drawable/alliance"
+						android:paddingBottom="0dip" android:paddingTop="0dip"
+						android:background="@drawable/button_rollover"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+					<TextView android:id="@+id/alli" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="@string/alliance"
+						android:textColor="#FFFFFF" android:textSize="12dip" />
+				</LinearLayout>	
+				
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/a"
+					android:orientation="horizontal" android:gravity="center" android:layout_weight="1">
+					<LinearLayout android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:id="@+id/a"
+						android:orientation="vertical" android:gravity="center">
+						<ImageButton android:id="@+id/messagesbt" android:src="@drawable/bubblemsg"
+							android:paddingBottom="0dip" android:paddingTop="0dip"
+							android:background="@drawable/button_rollover"
+							android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+						<TextView android:id="@+id/messages" android:layout_width="wrap_content"
+							android:layout_height="wrap_content" android:text="@string/messages"
+							android:textColor="#FFFFFF" android:textSize="12dip" />
+					</LinearLayout>
+					<LinearLayout android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:id="@+id/a"
+						android:orientation="vertical" android:gravity="center">
+						<TextView android:id="@+id/msgunread"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="0" android:textColor="#FFFFFF" android:textSize="12dip" />
+					</LinearLayout>			
+				</LinearLayout>				
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="1dip" android:background="#8F9193"
+				android:id="@+id/grayline"></LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="1dip" android:background="#FFFFFF"
+				android:id="@+id/whiteline"></LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:orientation="vertical" android:id="@+id/contentprofile"
+				android:layout_height="wrap_content" android:gravity="center">
+				<LinearLayout android:layout_width="fill_parent"
+					android:orientation="vertical" android:layout_height="wrap_content"
+					android:id="@+id/contests" android:layout_marginBottom="20dip">
+				</LinearLayout>
+			</LinearLayout>
+			<!-- END PROFILE CONTENT -->
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="vertical" android:id="@+id/convll"
+			android:layout_height="wrap_content" android:gravity="center"
+			android:layout_marginTop="0dip" android:layout_marginBottom="10dip">
+			<Button android:id="@+id/logout" android:textColor="#FFFFFF"
+				android:layout_width="294dip" android:layout_height="50dip"
+				android:textSize="18dip" android:text="@string/logout">
+			</Button>
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="vertical" android:id="@+id/convll"
+			android:layout_height="wrap_content" android:gravity="center"
+			android:layout_marginTop="0dip" android:layout_marginBottom="15dip">
+			<Button android:id="@+id/detach" android:textColor="#FFFFFF"
+				android:layout_width="294dip" android:text="@string/profileDetach"
+				android:padding="0dip" android:layout_height="30dip"
+				android:textSize="16dip">
+			</Button>
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="vertical" android:layout_height="fill_parent"
+			android:gravity="bottom|center" android:id="@+id/fond">
+			<ImageView android:id="@+id/layoutbottom"
+				android:layout_width="fill_parent" android:background="@drawable/footer"
+				android:layout_height="11dip" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+</ScrollView>

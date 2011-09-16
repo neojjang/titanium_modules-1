@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/912/trunk/gson/src/main/java/com/google/gson/internal
+END
+$Gson$Preconditions.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/784/trunk/gson/src/main/java/com/google/gson/internal/$Gson$Preconditions.java
+END
+UnsafeAllocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/885/trunk/gson/src/main/java/com/google/gson/internal/UnsafeAllocator.java
+END
+$Gson$Types.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/784/trunk/gson/src/main/java/com/google/gson/internal/$Gson$Types.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/788/trunk/gson/src/main/java/com/google/gson/internal/package-info.java
+END
+LazilyParsedNumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/887/trunk/gson/src/main/java/com/google/gson/internal/LazilyParsedNumber.java
+END
+Streams.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/887/trunk/gson/src/main/java/com/google/gson/internal/Streams.java
+END

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <id>com.beintoo.titanium</id>
+    <name>BeintooTitanium</name>
+    <version>1.0</version>
+    <publisher>ste</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2011 by ste</copyright>
+    <icon>beintoobtn.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>e986bc95-4017-4a08-b31d-d1426ab25287</guid>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+	    <manifest>
+		    <uses-permission android:name="android.permission.INTERNET"></uses-permission>	
+			<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+			<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	    </manifest>
+    </android>
+    <modules>    	
+	  <module version="0.1">org.beintoo.androidsdkapi</module>
+	  <module version="0.1">org.beintoo.androidsdkcore</module>
+    </modules>
+</ti:app>

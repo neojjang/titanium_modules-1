@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:layout_width="fill_parent"
+	android:orientation="vertical" android:gravity="center_vertical">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="1dip" android:background="#FFFFFF" android:id="@+id/whiteline"></LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:orientation="horizontal"
+		android:gravity="center_vertical" android:id="@+id/item"
+		android:background="#dddddd" android:paddingLeft="10dip"
+		android:paddingRight="10dip">
+		<ImageView android:id="@+id/image" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:maxWidth="50dip"
+			android:minWidth="50dip" android:maxHeight="50dip" android:minHeight="50dip"
+			android:scaleType="fitCenter" android:adjustViewBounds="false" />
+		<LinearLayout android:orientation="vertical"
+			android:layout_height="wrap_content" android:layout_marginRight="5dip"
+			android:layout_marginLeft="5dip" android:layout_width="wrap_content"
+			android:layout_weight="1">
+			<TextView android:id="@+id/nickname" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textColor="#545859" />
+			<TextView android:id="@+id/score" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="#787A77" />
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="35dip" android:layout_height="35dip"
+			android:id="@+id/post" android:gravity="center_vertical|center_horizontal"
+			android:layout_marginRight="12dip">
+			<TextView android:id="@+id/position" android:layout_width="wrap_content"
+				android:textSize="16dip" android:layout_height="wrap_content"
+				android:textColor="#aaaaaa" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/space"
+		android:orientation="vertical" android:visibility="gone">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="1dip" android:background="#8F9193" android:id="@+id/grayline"></LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="4dip" android:background="#FFFFFF" android:id="@+id/whiteline"></LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="1dip" android:background="#8F9193" android:id="@+id/grayline"></LinearLayout>
+	</LinearLayout>
+</LinearLayout>
+
+

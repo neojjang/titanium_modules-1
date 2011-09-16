@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 Beintoo Licensed under the Apache License, Version 2.0 
+	(the "License"); you may not use this file except in compliance with the 
+	License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/myScroll" android:layout_width="fill_parent"
+	android:scrollbars="vertical" android:layout_height="fill_parent"
+	android:fillViewport="true">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:id="@+id/maincontainer"
+		android:orientation="vertical" android:background="#dddddd">
+		<include layout="@layout/beintoobar" />
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="1dip" android:background="#FFFFFF" android:id="@+id/whiteline"></LinearLayout>
+		<RelativeLayout android:gravity="center_vertical"
+			android:id="@+id/welcome" android:layout_width="fill_parent"
+			android:layout_height="30dip">
+			<TextView android:layout_width="wrap_content" android:id="@+id/nickname"
+				android:gravity="center_vertical" android:layout_alignParentLeft="true"
+				android:text="@string/homeWelcome" android:textSize="14dip"
+				android:layout_height="30dip" android:textColor="#000000"
+				android:paddingLeft="10dip"></TextView>
+			<TextView android:layout_marginRight="10dip"
+				android:layout_width="wrap_content" android:id="@+id/bedollars"
+				android:gravity="center_vertical" android:layout_alignParentRight="true"
+				android:text="BeDollars" android:layout_height="30dip"
+				android:textColor="#000000"></TextView>
+		</RelativeLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="1dip" android:background="#8F9193" android:id="@+id/grayline"></LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="1dip" android:background="#FFFFFF" android:id="@+id/whiteline"></LinearLayout>
+		<LinearLayout android:gravity="center_vertical"
+			android:id="@+id/messages" android:layout_width="fill_parent"
+			android:layout_height="32dip" android:orientation="vertical">
+			<TextView android:layout_width="wrap_content" android:id="@+id/unmessage"
+				android:gravity="center_vertical" android:layout_alignParentLeft="true"
+				android:textSize="14dip"
+				android:layout_height="30dip" android:textColor="#000000"
+				android:paddingLeft="10dip"></TextView>			
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="1dip" android:background="#8F9193"
+				android:id="@+id/graylineu"></LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="1dip" android:background="#FFFFFF"
+				android:id="@+id/whitelineu"></LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:id="@+id/maincontainer" android:orientation="vertical"
+			android:gravity="center" android:layout_height="wrap_content"
+			android:background="#dddddd">
+			<TableLayout android:id="@+id/myTableLayout"
+				android:layout_height="wrap_content" android:scrollbars="vertical"
+				android:layout_width="fill_parent">
+				<TableRow android:id="@+id/firstRow">
+					<ImageView android:layout_width="wrap_content"
+						android:id="@+id/imageView1" android:layout_height="wrap_content"
+						android:src="@drawable/profbt" android:layout_marginRight="15dip"
+						android:layout_margin="10dip"></ImageView>
+					<LinearLayout android:id="@+id/linearLayout1"
+						android:layout_width="wrap_content" android:layout_height="fill_parent"
+						android:gravity="center_vertical" android:orientation="vertical">
+						<TextView android:layout_width="wrap_content"
+							android:textSize="17dip" android:id="@+id/textView1"
+							android:text="@string/profile" android:layout_height="wrap_content"
+							android:textColor="#000000"></TextView>
+						<TextView android:id="@+id/textView5"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:textSize="14dip" android:text="@string/profiledesc"
+							android:textColor="#878485"></TextView>
+					</LinearLayout>
+				</TableRow>
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="1dip" android:background="#8F9193"
+					android:id="@+id/firstGrayline"></LinearLayout>
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="1dip" android:background="#FFFFFF"
+					android:id="@+id/firstWhiteline"></LinearLayout>
+
+				<TableRow android:id="@+id/secondRow">
+					<ImageView android:layout_width="wrap_content"
+						android:id="@+id/imageView2" android:layout_height="wrap_content"
+						android:src="@drawable/leaderboardbt" android:layout_margin="10dip"></ImageView>
+					<LinearLayout android:id="@+id/linearLayout4"
+						android:layout_width="wrap_content" android:layout_height="fill_parent"
+						android:gravity="center_vertical" android:orientation="vertical">
+						<TextView android:layout_width="wrap_content"
+							android:textSize="17dip" android:id="@+id/textView2"
+							android:text="@string/leaderboard" android:layout_height="wrap_content"
+							android:textColor="#000000"></TextView>
+						<TextView android:id="@+id/textView6"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="@string/leaderboarddesc" android:textColor="#878485"></TextView>
+					</LinearLayout>
+				</TableRow>
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="1dip" android:background="#8F9193"
+					android:id="@+id/secondGrayline"></LinearLayout>
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="1dip" android:background="#FFFFFF"
+					android:id="@+id/secondWhiteline"></LinearLayout>
+
+				<TableRow android:id="@+id/thirdRow">
+					<ImageView android:layout_width="wrap_content"
+						android:id="@+id/imageView3" android:layout_height="wrap_content"
+						android:src="@drawable/walletbt" android:layout_margin="10dip"></ImageView>
+					<LinearLayout android:id="@+id/linearLayout5"
+						android:layout_width="wrap_content" android:layout_height="fill_parent"
+						android:gravity="center_vertical" android:orientation="vertical">
+						<TextView android:layout_width="wrap_content"
+							android:textSize="17dip" android:id="@+id/textView3"
+							android:text="@string/wallet" android:layout_height="wrap_content"
+							android:textColor="#000000"></TextView>
+						<TextView android:id="@+id/textView7"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="@string/walletdesc" android:textColor="#878485"></TextView>
+					</LinearLayout>
+				</TableRow>
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="1dip" android:background="#8F9193"
+					android:id="@+id/thirdGrayline"></LinearLayout>
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="1dip" android:background="#FFFFFF"
+					android:id="@+id/thirdWhiteline"></LinearLayout>
+
+				<TableRow android:id="@+id/fourthRow">
+					<ImageView android:layout_width="wrap_content"
+						android:id="@+id/imageView4" android:layout_height="wrap_content"
+						android:src="@drawable/challengebt" android:layout_margin="10dip"></ImageView>
+					<LinearLayout android:id="@+id/linearLayout6"
+						android:layout_width="wrap_content" android:layout_height="fill_parent"
+						android:gravity="center_vertical" android:orientation="vertical">
+						<TextView android:layout_width="wrap_content"
+							android:textSize="17dip" android:id="@+id/textView4"
+							android:layout_height="wrap_content" android:textColor="#000000"
+							android:text="@string/challenges"></TextView>
+						<TextView android:id="@+id/textView8"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="@string/challengesdesc" android:textColor="#878485"></TextView>
+					</LinearLayout>
+				</TableRow>
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="1dip" android:background="#8F9193"
+					android:id="@+id/fourthGrayline"></LinearLayout>
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="1dip" android:background="#FFFFFF"
+					android:id="@+id/fourthWhiteline"></LinearLayout>
+
+				<TableRow android:id="@+id/fifthRow">
+					<ImageView android:layout_width="wrap_content"
+						android:id="@+id/imageView4" android:layout_height="wrap_content"
+						android:src="@drawable/achievements" android:layout_margin="10dip"></ImageView>
+					<LinearLayout android:id="@+id/linearLayout6"
+						android:layout_width="wrap_content" android:layout_height="fill_parent"
+						android:gravity="center_vertical" android:orientation="vertical">
+						<TextView android:layout_width="wrap_content"
+							android:textSize="17dip" android:id="@+id/textView4"
+							android:layout_height="wrap_content" android:textColor="#000000"
+							android:text="@string/achievement"></TextView>
+						<TextView android:id="@+id/textView8"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="@string/achievementdesc" android:textColor="#878485"></TextView>
+					</LinearLayout>
+				</TableRow>
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="1dip" android:background="#8F9193"
+					android:id="@+id/fifthGrayline"></LinearLayout>
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="1dip" android:background="#FFFFFF"
+					android:id="@+id/fifthWhiteline"></LinearLayout>
+
+			</TableLayout>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:id="@+id/linearLayout3" android:layout_width="fill_parent">
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:id="@+id/www" android:orientation="vertical" android:gravity="bottom|center"
+			android:layout_height="fill_parent">
+			<TextView android:text="www.beintoo.com" android:id="@+id/nickname"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:gravity="center" android:textColor="#58595B"
+				android:paddingBottom="10dip"></TextView>
+			<ImageView android:id="@+id/layoutbottom"
+				android:layout_width="fill_parent" android:background="@drawable/footer"
+				android:layout_height="11dip">
+			</ImageView>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>
+	

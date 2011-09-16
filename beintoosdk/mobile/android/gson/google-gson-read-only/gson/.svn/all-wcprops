@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/912/trunk/gson
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/800/trunk/gson/LICENSE
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/862/trunk/gson/pom.xml
+END
+assembly-descriptor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/812/trunk/gson/assembly-descriptor.xml
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/234/trunk/gson/README
+END

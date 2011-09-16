@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/912/trunk/gson/src/main/java/com/google/gson/internal/bind
+END
+ArrayTypeAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/899/trunk/gson/src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java
+END
+TypeAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/907/trunk/gson/src/main/java/com/google/gson/internal/bind/TypeAdapter.java
+END
+BigIntegerTypeAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/905/trunk/gson/src/main/java/com/google/gson/internal/bind/BigIntegerTypeAdapter.java
+END
+BigDecimalTypeAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/905/trunk/gson/src/main/java/com/google/gson/internal/bind/BigDecimalTypeAdapter.java
+END
+MiniGson.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/894/trunk/gson/src/main/java/com/google/gson/internal/bind/MiniGson.java
+END
+TypeAdapters.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/912/trunk/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java
+END
+StringToValueMapTypeAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/893/trunk/gson/src/main/java/com/google/gson/internal/bind/StringToValueMapTypeAdapter.java
+END
+TypeAdapterRuntimeTypeWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/904/trunk/gson/src/main/java/com/google/gson/internal/bind/TypeAdapterRuntimeTypeWrapper.java
+END
+Reflection.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/897/trunk/gson/src/main/java/com/google/gson/internal/bind/Reflection.java
+END
+ReflectiveTypeAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/899/trunk/gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapter.java
+END
+CollectionTypeAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/899/trunk/gson/src/main/java/com/google/gson/internal/bind/CollectionTypeAdapter.java
+END

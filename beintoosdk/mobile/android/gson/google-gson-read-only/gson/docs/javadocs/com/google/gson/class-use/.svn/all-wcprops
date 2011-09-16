@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use
+END
+JsonSerializationContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/JsonSerializationContext.html
+END
+JsonDeserializer.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/JsonDeserializer.html
+END
+GsonBuilder.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/GsonBuilder.html
+END
+LongSerializationPolicy.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/LongSerializationPolicy.html
+END
+JsonIOException.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/JsonIOException.html
+END
+JsonElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/JsonElement.html
+END
+JsonParseException.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/JsonParseException.html
+END
+InstanceCreator.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/InstanceCreator.html
+END
+JsonDeserializationContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/JsonDeserializationContext.html
+END
+JsonParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/JsonParser.html
+END
+FieldAttributes.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/FieldAttributes.html
+END
+ExclusionStrategy.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/ExclusionStrategy.html
+END
+FieldNamingPolicy.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/FieldNamingPolicy.html
+END
+JsonSyntaxException.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/JsonSyntaxException.html
+END
+FieldNamingStrategy.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/FieldNamingStrategy.html
+END
+JsonObject.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/JsonObject.html
+END
+JsonPrimitive.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/JsonPrimitive.html
+END
+JsonStreamParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/JsonStreamParser.html
+END
+JsonSerializer.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/JsonSerializer.html
+END
+JsonNull.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/JsonNull.html
+END
+Gson.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/Gson.html
+END
+JsonArray.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/class-use/JsonArray.html
+END

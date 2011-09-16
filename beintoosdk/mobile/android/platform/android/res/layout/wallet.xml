@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 Beintoo Licensed under the Apache License, Version 2.0 
+	(the "License"); you may not use this file except in compliance with the 
+	License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/myScroll" android:layout_width="fill_parent"
+	android:scrollbars="vertical" android:layout_height="fill_parent"
+	android:fillViewport="true">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:id="@+id/maincontainer"
+		android:orientation="vertical" android:background="#dddddd">
+		<include layout="@layout/beintoobarsmall" />
+		<LinearLayout android:layout_height="wrap_content"
+				android:id="@+id/buttonsll" android:layout_width="fill_parent"
+				android:gravity="center">
+				<Button android:id="@+id/toConvertGoods" android:textColor="#545859" android:layout_height="35dip"
+					android:text="@string/walletNotConverted" android:padding="0dip" android:layout_width="fill_parent" android:layout_weight="1"></Button>
+				<LinearLayout android:layout_width="0.75dip"
+					android:layout_height="fill_parent" android:background="#8F9193"
+					android:id="@+id/grayline"></LinearLayout>
+				<Button android:id="@+id/convertedGoods" android:textColor="#545859" android:layout_height="35dip"
+					android:text="@string/walletConverted" android:padding="0dip" android:layout_width="fill_parent" android:layout_weight="1"></Button>
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="0.75dip" android:background="#8F9193"
+				android:id="@+id/grayline"></LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="0.75dip" android:background="#FFFFFF"
+				android:id="@+id/whiteline"></LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="vertical" android:id="@+id/goodcontent"
+			android:layout_height="wrap_content">
+			<!-- WALLET CONTENT -->
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:orientation="vertical" android:id="@+id/contentprofile"
+				android:layout_height="wrap_content" android:gravity="center">
+				<LinearLayout android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_width="fill_parent">
+					<TableLayout android:id="@+id/table"
+						android:layout_width="fill_parent" android:layout_height="fill_parent"
+						android:stretchColumns="1">
+					</TableLayout>
+				</LinearLayout>
+
+			</LinearLayout>
+			<!-- END WALLET CONTENT -->
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="vertical" android:layout_height="fill_parent"
+			android:gravity="bottom|center" android:id="@+id/fond">
+			<ImageView android:id="@+id/layoutbottom"
+				android:layout_width="fill_parent" android:background="@drawable/footer" android:layout_height="11dip"/>
+
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

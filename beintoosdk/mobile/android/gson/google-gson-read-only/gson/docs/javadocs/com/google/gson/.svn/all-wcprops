@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson
+END
+JsonDeserializer.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/JsonDeserializer.html
+END
+JsonSerializationContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/JsonSerializationContext.html
+END
+GsonBuilder.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/GsonBuilder.html
+END
+LongSerializationPolicy.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/LongSerializationPolicy.html
+END
+JsonIOException.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/JsonIOException.html
+END
+JsonElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/JsonElement.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/package-frame.html
+END
+JsonParseException.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/JsonParseException.html
+END
+InstanceCreator.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/InstanceCreator.html
+END
+JsonDeserializationContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/JsonDeserializationContext.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/package-summary.html
+END
+JsonParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/JsonParser.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/package-tree.html
+END
+FieldAttributes.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/FieldAttributes.html
+END
+ExclusionStrategy.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/ExclusionStrategy.html
+END
+FieldNamingPolicy.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/FieldNamingPolicy.html
+END
+JsonSyntaxException.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/JsonSyntaxException.html
+END
+JsonObject.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/JsonObject.html
+END
+FieldNamingStrategy.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/FieldNamingStrategy.html
+END
+JsonPrimitive.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/JsonPrimitive.html
+END
+JsonStreamParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/JsonStreamParser.html
+END
+JsonSerializer.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/JsonSerializer.html
+END
+JsonNull.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/JsonNull.html
+END
+Gson.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/Gson.html
+END
+JsonArray.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/817/trunk/gson/docs/javadocs/com/google/gson/JsonArray.html
+END

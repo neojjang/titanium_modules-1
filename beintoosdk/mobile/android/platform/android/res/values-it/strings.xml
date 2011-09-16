@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2011 Beintoo
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+    http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+    <string name="challStatus">Stato:</string>
+    <string name="challStart">Data inizio:</string>
+    <string name="challEnd">Data fine:</string>
+    <string name="challWinner">Vincitore:</string>
+    <string name="challPrize">Premio:</string>
+    <string name="challNoPending">Non hai nessuna richiesta di sfida in attesa</string>
+    <string name="challFromTo" xml:space="preserve">Da te a\u0020</string>
+    <string name="challFrom" xml:space="preserve">Da\u0020</string>
+    <string name="challYou" xml:space="preserve">\u0020a te</string>
+    <string name="challRefused">Sfida rifiutata</string>
+    <string name="challAccepted">Sfida accetta</string>
+    <string name="challNoPendingC">Non hai nessuna richiesta di sfida in attesa</string>
+    <string name="challNoAccepted">Non hai accettato nessuna challenge</string>
+    <string name="challNoEnded">Non hai nessuna sfida completata</string>
+    <string name="challChallenge">Sfida</string>
+    <string name="challSent" xml:space="preserve">Sfida inviata a\u0020</string>
+    <string name="challAccept">Vuoi accettare questa sfida al costo di\u0020</string>
+    <string name="challSend">Vuoi inviare una sfida?\nPunta 10 BeDollars, ne potrai vincere 25.</string>
+    <string name="challTip">clicca su un utente per interagire</string>
+	<string name="people">Persone</string>
+	
+    <string name="leadTitle">Leaderboard</string>
+    <string name="leadScore">Punteggio:\u0020</string>
+    <string name="leadSendChall">Invia sfida</string>
+	<string name="leadViewProfile">Vedi profilo</string>
+	<string name="leadAddFriend">Aggiungi agli amici</string>
+	<string name="leadshowfriendsonly">Visualizza solo amici</string>
+	
+    <!-- FRIENDS -->
+    <string name="friendsTitle">I tuoi amici</string>
+    <string name="friendSel">Seleziona un amico</string>
+    <string name="friendsNo">Non hai alcun amico</string>    
+    <string name="friendSure" xml:space="preserve">Sei sicuro di voler inviare questo coupon come regalo a\u0020</string>
+    <string name="friendSent" xml:space="preserve">Regalo inviato a\u0020</string> 
+    <string name="friendLoading">Caricamento amici...</string>
+    <string name="friendTitle">Amici</string> 
+    <string name="friendFind">Trova amici</string>
+    <string name="friendFindT">Trova amici su Beintoo</string>
+    <string name="friendYours">I tuoi amici</string>
+    <string name="friendYoursT">Vedi i tuoi amici su Beintoo</string>
+    <string name="friendFriendshipReqT">Gestisci le tue richieste di amicizia</string>    
+    <string name="friendFindeditsearch">Cerca un nickname, un nome o un\'email</string>
+    <string name="friendRecommendT">Consiglia a un amico</string>
+	<string name="friendRecommend">Consiglia questa app ai tuoi amici</string>
+    <string name="friendSendReq">Vuoi mandare a %s una richiesta di amicizia?</string>
+    <string name="friendReqTitle">Richieste di amicizia</string>
+    <string name="friendReqSubtitle">Clicca su un nome per accettare</string>
+    <string name="friendReqEmpty">Non hai richieste di amicizia</string>
+    <string name="friendReqAccept">Accetti la richiesta di amicizia?</string>
+    <string name="friendNotfound">Non trovato</string>
+     <string name="friendReqSent">Richiesta inviata</string>
+    <string name="friendReqAcc">Richiesta accettata</string>
+    <string name="friendReqIgn">Richiesta riufiutata</string>
+    
+    <string name="homeWelcome" xml:space="preserve">Bentornato\u0020</string>
+    
+    <string name="profileScore">Il tuo punteggio</string>
+    <string name="profileLevel" xml:space="preserve">Livello:\u0020</string>
+    <string name="profileTotalScore" xml:space="preserve">Totale:\u0020</string>
+    <string name="profileBestScore" xml:space="preserve">Migliore:\u0020</string>
+    <string name="profileLastScore" xml:space="preserve">Ultimo:\u0020</string>
+    <string name="profileNoScores">Non hai nessun punteggio per questa app</string>
+    <string name="profileDetach">Rimuovi account dal dispositivo</string>
+    <string name="profileOf">Profilo di %s</string>
+    <string name="password">Password</string>
+    <string name="logout">Logout</string>
+    
+    <string name="vgoodWhoAlso">Chi ha già acquistato</string>
+    <string name="vgoodEnd">Data di fine:</string>
+    
+    <string name="walletNoGoods">Non hai nessun bene virtuale</string>
+    <string name="walletConverted">Comprati</string>
+    <string name="walletNotConverted">Da riscuotere</string>
+   
+   
+   	<string name="tryBe">Beintoo trasforma la tua passione per le apps in premi reali.\nE\' gratis ed estremamente facile!</string>
+    <string name="pressBt">Premi il pulsante qui sotto e prova Beintoo</string>
+    
+    <!-- ERROR DISPLAYER AND TOAST MESSAGES -->
+    <string name="connectionError">Errore di connessione.\nPer favore controlla la tua connessione ad Internet.</string>
+    <string name="loadingBeintoo">Caricamento Beintoo...</string>
+    <string name="loading">Caricamento...</string>
+    <string name="login">Login...</string>
+    <string name="wronglogin">Username o password errate</string>
+    <string name="earnedBalance">Il tuo punteggio totale é: %d</string>
+    <string name="earnedScore">Hai guadagnato %d punti.\u0020</string>
+    <string name="earnedMultiScore">Hai guadagnato punteggi multipli:\u0020 %s</string>
+    
+    <!-- BOXES -->
+    <string name="boxWallet">I tuoi premi</string>
+    <string name="boxChallenge">Le tue sfide\nE\' tempo di vincere</string>
+    <string name="boxCoupon">Complimenti! Ti sei meritato un premio</string>
+    <string name="boxCouponList">Complimenti! Scegli il tuo premio</string>
+    <string name="boxUserSel">Quale profilo vuoi utilizzare?\nSeleziona o usa un altro account</string>
+    <string name="boxUserLogin">Fai il login su Beintoo</string>
+    <string name="boxemail">Inserisci il tuo indirizzo email:</string>
+   	<string name="youremail">La tua email</string>
+   	<string name="startBeintooFun">Comincia a divertirti!</string>
+   	<string name="orloginExisting">o accedi con un profilo esistente ></string>
+   	<string name="tos">Beintoo non diffonderà la tua email ne sarai oggetto di spammig. La tua mail passa attraverso una connesione sicura.</string>
+   	<string name="confirmnick">Conferma il tuo nickname</string>
+   	<string name="invalidemail">Per favore inserisci una email valida</string>
+	<string name="invalidnickname">La lunghezza minima del nickname é di 3 caratteri</string>
+
+    <!-- BUTTONS -->
+    <string name="trynow">Prova Beintoo Ora</string>
+    <string name="nothanks">No, grazie</string>
+    <string name="anotheraccount">Usa un altro account</string>
+    <string name="all">Tutti</string>
+    <string name="friends">Amici</string>
+    <string name="pending">In attesa</string>
+    <string name="ongoing">In corso</string>
+    <string name="ended">Finite</string>
+    <string name="getcoupon">Ottieni il premio</string>
+    <string name="sendasgift">Invia come regalo</string>
+    <string name="loginbt">Accedi</string>
+    <string name="newuser">Registrati</string>
+    <!-- OTHERS -->
+    <string name="no">No</string>
+    <string name="yes">Si</string>
+    <string name="cancel">Annulla</string>
+    
+    <!-- HOME -->
+    <string name="profile">Profilo</string>
+    <string name="profiledesc">visualizza le tue statistiche</string>
+    <string name="leaderboard">Classifiche</string>
+    <string name="leaderboarddesc">visualizza i punteggi globali</string>    
+    <string name="wallet">I tuoi premi</string>
+    <string name="walletdesc">gestisci i tuoi premi virtuali</string>
+    <string name="challenges">Sfide</string>
+    <string name="challengesdesc">gestisci le tue sfide</string>
+    
+    <!-- VGOOD DIALOG -->
+    <string name="vgoodmessagealert">Hai vinto un premio da Beintoo utilizzando questa app!\nClicca su ottieni per riceverlo ora</string>
+    <string name="vgoodmessagepositive">Ottieni</string>
+    <string name="vgoodrecommpositive">Clicca qui</string>
+    <string name="vgoodmessagenegative">Più tardi</string>
+    <string name="vgoodmessagebanner">Hai vinto un premio da Beintoo utilizzando questa app!\nClicca qui per riceverlo ora</string>
+    <string name="vgoodhtmlmessage">Vedi qui il tuo premio</string>
+    <string name="vgoodchoosedialog">Scegli un\'opzione</string>
+    <string name="vgoodgetcoupondialog">Ottieni il coupon</string>
+    <string name="vgoodsendgiftdialog">Regala a un amico</string>
+    <string name="vgooddetaildialog">Più dettagli</string>
+    
+    <!-- MESSAGES -->
+    <string name="messages">Messaggi</string>
+    <string name="messagesnewmsg">Nuovo messaggio</string>
+    <string name="messagefrom"><b>Da:</b></string>
+    <string name="messagedate"><b>Data:</b></string>
+    <string name="messagereply">Rispondi</string>
+    <string name="messagedelete">Elimina</string>
+    <string name="messagedeleting">Eliminazione...</string>
+    <string name="messageaskdelete">Vuoi davvero eliminare questo messaggio?</string>  
+    <string name="messagesend">Invia messaggio</string>
+    <string name="messagesending">Invio...</string>  
+    <string name="messageselect">Seleziona un amico e scrivi il messaggio</string>
+    <string name="messageto">A:</string>
+    <string name="messagetext">Messaggio:</string> 
+    <string name="messageempty">Non hai nessun messaggio ricevuto</string>
+    <string name="messageloadmore">Carica precedenti</string>  
+    <string name="messagesent">Messaggio inviato a \u0020</string>
+    <string name="messagenotification">Hai %d messaggi non letti</string> 
+    
+    <!-- BALANCE -->
+    <string name="balance">Bilancio</string> 
+    <string name="balanceempty">Non hai ancora guadagnato e speso beDollars</string>
+    <string name="BADGE_WIN">Vincita Badge</string>
+	<string name="CHALLENGE_ACCEPT">Sfida Accettata</string>
+	<string name="CHALLENGE_INVITE">Invito a sfida</string>
+	<string name="CHALLENGE_WiN">Vincita Sfida</string>
+	<string name="COMMENT">Commento</string>
+	<string name="CONTEST_WIN">Contest Vinto</string>
+	<string name="CREATE_USER">Creazione utente</string>
+	<string name="FRIEND_ADDED">Amico aggiunto</string>
+	<string name="FRIEND_INVITE">Amico invitato</string>
+	<string name="LEADERBOARD_IMPROVE">Miglioramento nella Leaderboard</string>
+	<string name="MARKETPLACE_BUY">Acquisto Marketplace</string>
+	<string name="MARKETPLACE_SELL">Vendita Marketplace</string>
+	<string name="SEND_BEDOLLAR_METHOD">Versamento da App</string>
+	<string name="SHARE">Condivisione</string>
+	<string name="SUBMIT_SCORE">Submit Score</string>
+	<string name="VGOOD_CONVERSION">VGood convertito</string>
+	<string name="WEEKLY_PAYMENT">Salario settimanale</string>
+	<string name="ACHIEVEMENT_UNLOCKED">Achievement sbloccato</string>
+	
+	<!-- ACHIEVEMENTS -->
+    <string name="achievement">Achievements</string>
+  	<string name="achievementdesc">Vedi i tuoi achievements</string>
+  	<string name="achievementempty">Non hai ancora achievements su questa App</string>
+	<string name="achievementsunlocked">Hai sbloccato i seguenti achievements:\u0020</string>
+	<string name="achievementunlocked">Hai sbloccato il seguente achievement:\u0020</string>
+	<string name="blockedbyplur">Bloccato dai seguenti achievements</string>
+	<string name="blockedbysing">Bloccato dal seguente achievement</string>
+	<string name="onapp">sull\'app:\u0020</string>
+	
+	<!--  ALLIANCES -->
+	<string name="alliance">Alleanza</string>
+	<string name="alliances">Alleanze</string>
+	<string name="alliancemaintip">Crea la tua alleanza o cercane una</string>
+	<string name="alliancemaincreate">Crea alleanza</string>
+	<string name="alliancemaincreatebottom">Crea la tua alleanza</string>
+	<string name="alliancemainyours">La tua alleanza</string>
+	<string name="alliancemainyoursbottom">Visualizza i dettagli della tua alleanza</string>
+	<string name="alliancemainlist">Elenco alleanze</string>
+	<string name="alliancemainlistbottom">Visualizza l\'elenco alleanze</string>
+	<string name="alliancemaintextfooter">Le alleanze sono formate da un gruppo di giocatori che decidono di fare squadra e collaborare contro altre alleanze per vincere ancora più premi e Bedollars.</string>
+	<string name="alliancecreateeditext">Inserisci il nome dell\'alleanza</string>
+	<string name="allianceviewmembers">Membri dell\'alleanza</string>
+	<string name="allianceviewpending">Richieste in attesa</string>
+	<string name="alliancesendreq">Richiedi di entrare</string>
+	<string name="alliancedetails">Dettagli</string>
+	<string name="alliancependingtip">Clicca su un utente per accettare o rifiutare</string>
+	<string name="alliancependindialog">Vuoi accettare %s nella tua alleanza?</string>
+	<string name="alliancependingaccepted">%s è stato accettato nella tua alleanza</string>
+	<string name="alliancependingrefused">%s è stato rifiutato dalla tua alleanza</string>
+	<string name="alliancerequestdialog">Vuoi fare richiesta per entrare nell\'alleanza %s?</string>
+	<string name="alliancerequestsent">Richiesta inviata</string>
+	<string name="allianceleave">Lascia l\'alleanza</string>
+	<string name="alliancesearch">Cerca un\'alleanza</string>
+	<string name="alliancemembers">Membri:\u0020</string>
+	<string name="allianceadmin">Admin:\u0020</string>
+	<string name="allianceaccept">Accetta</string>
+	<string name="alliancerefuse">Rifiuta</string>
+	<string name="allianceinvalid">La lunghezza minima del nome é di 3 caratteri</string>
+		
+	<!-- CUSTOM -->
+	<string name="sponsor"><Data><![CDATA[ Partecipa: <b><br />&nbsp;&nbsp;vinci sconti<br />&nbsp;&nbsp;esclusivi!</b> ]]> </Data></string>
+	<string name="sponsortitle">Registrati a Beintoo per ottenere vantaggiosi sconti nella tua città per i tuoi punteggi nei giochi.</string>
+</resources>
