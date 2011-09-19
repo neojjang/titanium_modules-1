@@ -1,0 +1,218 @@
+// Global
+"score"					= "Points";
+"points"				= "points";
+"back"					= "Back";
+"novice"				= "Novice";
+"learner"				= "Learner";
+"passionate"			= "Passionate";
+"winner"				= "Winner";
+"master"				= "Master";
+"endDate"				= "End Date:";
+"date"					= "Date:";
+"from:"					= "From:";
+"to:"					= "To:";
+"yes"					= "Yes";
+"login"					= "Login";
+"loginError"			= "Error";
+"loginErrorMsg"			= "Wrong username or password. Please try again.";
+"loginSuccess"			= "Welcome back!";
+"loginSuccessMsg"		= "You are now logged in!";
+"cancel"				= "Cancel";
+"show"					= "Show";
+"details"				= "Details";
+"connectionError"		= "Connection error. Please check your internet connection.";
+"done"					= "Done";
+"best"					= "Best: ";
+"last"					= "Last: ";
+"nickname"				= "Nick:";
+
+// Home
+"profileDesc"			= "your stats, messages and friends";
+"leaderboardDesc"		= "view the global scoring";
+"walletDesc"			= "manage your virtual goods";
+"challengesDesc"		= "manage your challenges";
+"newMessages"			= "new messages";
+"achievementsDesc"		= "view your achievements";
+
+// Start Beintoo
+"enteremail"			= "Enter your email address:";
+"confirmNickname"		= "Registration complete! Confirm your nickname:";
+"startBtn"				= "Start having fun!";
+"confirmNickBtn"		= "Confirm nickname";
+"registrationDisclaim"	= "Beintoo will not distribute your email or spam you. Your email is sent via a secure connection.";
+"regEmailErrorMessage"	= "Invalid email address.";
+"loginExistingBtn"		= "or login with an existing account  >";
+
+// Notifications
+"submitScoreMsg"		= "You earned %@ point(s).";
+"unlockAchievMsg"		= "Achievement unlocked!"; 
+
+// Leaderboard
+"leaderboard"			= "Leaderboard";
+"all"					= "All";
+"friends"				= "Friends";
+"global"				= "Global";
+"pickacontest"			= "Select a contest to see the scores";
+
+// Achievements
+"achievements"			= "Achievements";
+
+
+// Profile
+"profile"				= "Profile";
+"level"					= "Level:";
+"pointsOn"				= "Points on";
+"pointsOnThisApp"		= "Points on this app:";
+"totalScore"			= "Total Score:";
+"bestScore"				= "Best Score:";
+"lastScore"				= "Last Score:";
+"detachFromDevice"		= "Are you sure to remove your account from this device?";
+"logout"				= "Are you sure to logout from Beintoo?";
+"friendList"			= "Friends list"; //check
+"friendRequest"			= "Friend requests";
+"sendMessage"			= "Send Message";
+"messages"				= "Messages";
+"logoutBtn"				= "Logout";
+
+// Friends
+"findFriends"			= "Find Friends";
+"yourFriends"			= "Your Friends";
+"friendRequests"		= "Friendship requests";
+"findFriendsDesc"		= "find people on Beintoo community";
+"yourFriendsDesc"		= "see your Beintoo friends";
+"friendRequestsDesc"	= "manage your friendship requests";
+"addFriend"				= "Send %@ a friend request?"; 
+"addAsFriend"			= "Send request";
+"nofriendslabel"		= "You don't have any friends.";
+"hereAreYourFriends"	= "Your friends";
+"searchForTitle"		= "Search for a nickname, name or email";
+"noResult"				= "No result found.";
+"noFriendshipReq"		= "You have no friendship requests";
+"friendRequests"		= "Friend requests";
+"friendReqTitle"		= "Click on a name to accept";
+"friendRequestFrom"		= "Do you accept the friendship request?";
+"noRequest"				= "No request found";
+
+// Wallet
+"wallet"				= "Wallet";
+"tobeconverted"			= "To be redeemed";
+"converted"				= "Redeemed goods";
+
+// Balance
+"balance"				= "Balance";
+"balanceTitle"			= "Bedollars status";
+"nobalancelabel"		= "You have no Bedollars transactions.";
+"BADGE_WIN"				= "Badge Won";
+"CHALLENGE_ACCEPT"		= "Challenge Accepted";
+"CHALLENGE_INVITE"		= "Challenge Invite";
+"CHALLENGE_WiN"			= "Challenge Won";
+"COMMENT"				= "Comment";
+"CONTEST_WIN"			= "Contest Won";
+"CREATE_USER"			= "User creation";
+"FRIEND_ADDED"			= "Friend Added";
+"FRIEND_INVITE"			= "Friend Invited";
+"LEADERBOARD_IMPROVE"	= "Leaderboard improvement";
+"MARKETPLACE_BUY"		= "Marketplace Purchase";
+"MARKETPLACE_SELL"		= "Marketplace Sale";
+"SEND_BEDOLLAR_METHOD"	= "Given from an App";
+"SHARE"					= "Sharing";
+"SUBMIT_SCORE"			= "New score";
+"VGOOD_CONVERSION"		= "Good converted";
+"WEEKLY_PAYMENT"		= "Weekly salary";
+
+// Challenges
+"challenges"			= "Challenges";
+"challenge"				= "Challenge";
+"pending"				= "Pending";
+"ended"					= "Ended";
+"end"					= "Ended";
+"ongoing"				= "Ongoing";
+"from"					= "From";
+"to"					= "to";
+"status"				= "Status:";
+"startDate"				= "Start date:";
+"endChallengeDate"		= "End date:";
+"prize"					= "Prize:";
+"challengeWinner"		= "Winner:";
+"costToAccept"			= "Cost to accept:";
+
+//vGood
+"friends"				= "Friends";
+"whoAlsoConverted"		= "Who also purchased:";
+"selectFriend"			= "Select a friend";
+"doYouFriend"			= "Are you sure you want to send this coupon as a gift?";
+"unableToSendAsAGift"	= "Please signin on Beintoo to send this good as a gift to your friends.";
+"giftSent"				= "Gift sent!";
+"giftNotSent"			= "Unable to send the gift.";
+"vgoodMessageBanner"	= "Hey! You got a Beintoo reward by using this app!";
+"tapHereToRedeem"		= "Tap here and redeem it.";
+"multipleVgoodsLabel"	= "Congratulations! Choose your reward.";
+
+// Buttons
+"acceptBtn"				= "Accept";
+"refuseBtn"				= "Refuse";
+"getCoupon"				= "Get Coupon";
+"sendAsGift"			= "Send as a gift";
+"tryBeintooBtn"			= "Try Beintoo!";
+"noThanks"				= "No, thanks";
+"useAnotherAccount"		= "Use another account";
+"newUser"				= "New account";
+"detach"				= "Remove";
+
+// Labels
+"wehavefound"			= "Which profile do you want to use?";
+"selectwhich"			= "Choose or create a new Beintoo account.";
+"orcreate"				= "";
+"pressTheButton"		= "Press the button below to try Beintoo";
+"hereare"				= "Here are your challenges";
+"itstimeto"				= "It's time to win";
+"congratulations"		= "Congratulations, you deserve a reward!";
+"hereiswallet"			= "Here is your wallet of great rewards";
+"beintootransforms"		= "Beintoo transforms your Passion for";
+"yourpassion"			= "Apps in Real Rewards.";
+"realreward"			= "It's Free and extremely Easy!";
+"noscoreLabel"			= "No points on this app.";
+"nochallenges"			= "You don't have any challenge in this state";
+"startChallenge"		= "Would you like to send a challenge? Bet 10 BeDollars to win 25.";
+"loginOn"				= "Login";
+"no_fb_login1"			= "Login on Beintoo, create a new";
+"no_fb_login2"			= "user or use your Facebook account";
+"orCreateAccount"		= "Or create a new account";
+"nogoodslabel"			= "You have no virtual goods.";
+"nogoodsnolocation"		= "Please switch on location services to win prizes.";
+"signup"				= "Signup";
+"noAchievementsLabel"	= "You don't have achievements yet.";
+
+// Messages
+"inbox"					= "Inbox";
+"yourMessages"			= "Here are your messages";
+"loadmoreButton"		= "Load more";
+"noMessages"			= "You don't have any messages.";
+"newMessage"			= "New Message";
+"reply"					= "Reply";
+"delete"				= "Delete";
+"sendmessage"			= "Select a friend and write your message";
+"message:"				= "Message:";
+"sendButton"			= "Send";
+"sendMessageTitle"		= "Send a message";
+"addressee"				= "To";
+
+// AlertMessages
+"errorMessage"			= "An error occurred, please retry later.";
+"challengeSent"			= "Challenge sent!";
+"challengeAccepted"		= "Challenge accepted!";
+"challengeRefused"		= "Challenge refused.";
+"challengeOngoing"		= "Challenge already ongoing.";
+"shortMessageError"		= "Message too short. \nPlease retry.";
+"messageSent"			= "Message sent!";
+"messageNotSent"		= "Unable to send the message. \n Please retry.";
+"noFriendSelected"		= "You need to choose a friend to send your message.";
+"messageDeleted"		= "Message deleted.";
+"messageNotDeleted"		= "An error occurred, message not deleted. Please retry.";
+"requestSent"			= "Request sent.";
+"requestNotSent"		= "An error occurred, request not sent. Please retry.";
+"requestAccepted"		= "Request accepted";
+"requestRefused"		= "Request refused";
+"pendingFriendRequest"  = "You already have a pending request with this user.";
+"noUserMessage"			= "User not found error. Please sign in again.";
+

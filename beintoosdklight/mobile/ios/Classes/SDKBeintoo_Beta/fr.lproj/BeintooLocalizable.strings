@@ -1,0 +1,219 @@
+// Global
+"score"					= "Score";
+"points"				= "Points";
+"back"					= "Arrière";
+"novice"				= "Débutant";
+"learner"				= "Élève";
+"passionate"			= "Passionné";
+"winner"				= "Gagnant";
+"master"				= "Maître";
+"date"					= "Date:";
+"from:"					= "De:";
+"to:"					= "Destinataire:";
+"endDate"				= "Valable jusqu'au:";
+"yes"					= "Oui";
+"login"					= "Accedez";
+"loginError"			= "Erreur";
+"loginErrorMsg"			= "Pseudo ou mot de passe incorrecte. Réessayez.";
+"loginSuccess"			= "Bienvenue!";
+"loginSuccessMsg"		= "Connexion réussie.";
+"cancel"				= "Annuller";
+"show"					= "Voir et obtenir";
+"details"				= "En savoir plus";
+"connectionError"		= "Absence de données pour la connection.Verifier vos paramètres et réessayer.";
+"done"					= "Fait";
+"best"					= "Meilleur:";
+"last"					= "Dernier:";
+"nickname"				= "Pseudo:";
+
+
+// Home
+"profileDesc"			= "statistiques, messages, amis";
+"leaderboardDesc"		= "Voir mes scores";
+"walletDesc"			= "gérer mes prix";
+"challengesDesc"		= "gérer mes défis";
+"newMessages"			= "nouveaux messages";
+"achievementsDesc"		= "view your achievements";
+
+// Notifications
+"submitScoreMsg"		= "You earned %@ point(s).";  // *********************
+"unlockAchievMsg"		= "Achèvement atteint!";
+
+// Start Beintoo - to be translated *******************************
+"enteremail"			= "Enter your email address:";
+"confirmNickname"		= "Registration complete! Confirm your nickname:";
+"startBtn"				= "Start having fun!";
+"confirmNickBtn"		= "Confirm nickname";
+"registrationDisclaim"	= "Beintoo will not distribute your email or spam you. Your email is sent via a secure connection.";
+"regEmailErrorMessage"	= "Invalid email address.";
+"loginExistingBtn"		= "or login with an existing account  >";
+
+// Leaderboard
+"leaderboard"			= "Classement";
+"all"					= "Tous";
+"friends"				= "Amis";
+"pickacontest"			= "Choisir un contexte pour voir les scores.";
+
+// Achievements
+"achievements"			= "Achievements";
+
+
+// Profile
+"profile"				= "Profil";
+"level"					= "Niveau:";
+"pointsOn"				= "Score sur";
+"pointsOnThisApp"		= "Score sur cette appli:";
+"totalScore"			= "Score total:";
+"bestScore"				= "Meilleur score:";
+"lastScore"				= "Dernier score:";
+"detachFromDevice"		= "Êtes vous sur de vouloir éliminer ce profil de ce dispositif?";
+"logout"				= "Êtes vous sur de vouloir vous déconnecter de Beintoo?";
+"friendList"			= "Liste d'amis"; //check
+"friendRequest"			= "Demande d'ajout à la liste d'amis";
+"sendMessage"			= "Envoyer message";
+"messages"				= "Messages";
+"logoutBtn"				= "Déconnexion";
+
+// Friends
+"findFriends"			= "Retrouvez vos amis";
+"yourFriends"			= "Vos amis";
+"friendRequests"		= "Demande d'ajout à la liste d'amis";
+"findFriendsDesc"		= "retrouver d'autres amis dans la communauté Beintoo";
+"yourFriendsDesc"		= "tes amis sur Beintoo";
+"friendRequestsDesc"	= "gérer les demandes d'amitié";
+"addFriend"				= "Envoyer %@ une demande d'ajout à la liste d'amis?";
+"addAsFriend"			= "Envoyer demande";
+"nofriendslabel"		= "Vous n'avez aucun amis pour l'instant.";
+"hereAreYourFriends"	= "Vos amis";
+"searchForTitle"		= "Rechercher par pseudo, nom, ou email.";
+"noResult"				= "Aucun résultat trouvé.";
+"noFriendshipReq"		= "Vous n'avez pas de demandes d'ajout à la liste d'amis";
+"friendRequests"		= "Demandes d'amitié";
+"friendReqTitle"		= "Cliquez sur le nom pour accepter";
+"friendRequestFrom"		= "Acceptez-vous l'invitation?";
+"noRequest"				= "Aucune invitation trouvée.";
+
+// Wallet
+"wallet"				= "Vos prix";
+"tobeconverted"			= "À obtenir";
+"converted"				= "Obtenu";
+
+// Balance
+"balance"				= "Budget";
+"balanceTitle"			= "Statut Bedollars";
+"nobalancelabel"		= "Vous n'avez pas encore de Bedollars";
+"BADGE_WIN"				= "Badges gagnés";
+"CHALLENGE_ACCEPT"		= "Défis Acceptés";
+"CHALLENGE_INVITE"		= "Défis gagnés";
+"COMMENT"				= "Commentaire";
+"CONTEST_WIN"			= "Contest Gagné";
+"CREATE_USER"			= "Creation d'utilisateur";
+"FRIEND_ADDED"			= "Amis ajouté";
+"FRIEND_INVITE"			= "Amis invité";
+"LEADERBOARD_IMPROVE"	= "Affermissement dans la Leaderboard";
+"MARKETPLACE_BUY"		= "AchatMarketplace";
+"MARKETPLACE_SELL"		= "Vente Marketplace";
+"SEND_BEDOLLAR_METHOD"	= "Versement depuis Appli";
+"SHARE"					= "Partage d'une info";
+"SUBMIT_SCORE"			= "Nouveau score";
+"VGOOD_CONVERSION"		= "Prix obtenu";
+"WEEKLY_PAYMENT"		= "Salaire hebdomadaire";
+
+
+// Challenges
+"challenges"			= "Défis";
+"challenge"				= "Défi";
+"pending"				= "En attente";
+"ended"					= "Achevés";
+"end"					= "Achevé";
+"ongoing"				= "En cours";
+"from"					= "De";
+"to"					= "à";
+"status"				= "Statut:";
+"startDate"				= "Début:";
+"endChallengeDate"		= "Fin:";
+"prize"					= "Prix:";
+"challengeWinner"		= "Gagnant:";
+"costToAccept"			= "Coût pour accepter:";
+
+//vGood
+"friends"				= "Amis";
+"whoAlsoConverted"		= "Ont déjà obtenu le prix reçu:";
+"selectFriend"			= "Choisir un ami";
+"doYouFriend"			= "Voulez-vous envoyer le cadeau?";
+"unableToSendAsAGift"	= "Enregistrez-vous à Beintoo pour offrir ce prix à un ami.";
+"giftSent"				= "Cadeau envoyé!";
+"giftNotSent"			= "Impossibile offrir ce cadeau.";
+"vgoodMessageBanner"	= "Vous avez gagné un prix de Beintoo en utilisant cette Appli!";
+"tapHereToRedeem"		= "Cliquer ici pour le recevoir maintenant.";
+"multipleVgoodsLabel"	= "Félicitations! Choisissez votre prix.";
+
+
+// Buttons
+"acceptBtn"				= "Accepter";
+"refuseBtn"				= "Refuser";
+"getCoupon"				= "Obtenir Prix";
+"sendAsGift"			= "Offrir";
+"tryBeintooBtn"			= "Essayez Beintoo!";
+"noThanks"				= "Non merci";
+"useAnotherAccount"		= "Utiliser un autre compte";
+"newUser"				= "Nouveau compte";
+"detach"				= "Eliminer";
+
+// Labels
+"wehavefound"			= "Quel compte voulez-vous utiliser?";
+"selectwhich"			= "Sélectionner un autre compte.";
+"orcreate"				= "";
+"pressTheButton"		= "Cliquez ci-dessous et essayez Beintoo";
+"hereare"				= "Vos défis";
+"itstimeto"				= "Il est temps de gagner!";
+"congratulations"		= "Félicitations! Vous vous méritez ce prix!";
+"hereiswallet"			= "Voici la liste de vos prix";
+"beintootransforms"		= "Beintoo trasforme votre Passion pour";
+"yourpassion"			= "les Applis en de Vrais prix.";
+"realreward"			= "C'est gratuit et très facile!";
+"noscoreLabel"			= "Aucun score sur cette Appli.";
+"nochallenges"			= "Aucun défi ici";
+"startChallenge"		= "Voulez-vous défier ce joueur? Parier 10 Bedollars, vous pouvez en gagner 25.";
+"loginOn"				= "Accéder";
+"no_fb_login1"			= "Accéder à Beintoo et enregistrez-vous.";
+"no_fb_login2"			= "Si vous êtes déjà enregistré sur Facebook utilisez votre compte.";
+"orCreateAccount"		= "Ou créer un nouveau compte.";
+"nogoodslabel"			= "Vous n'avez aucun coupon pour l'instant.";
+"signup"				= "Inscription";
+"noAchievementsLabel"	= "You don't have achievements yet.";
+
+
+// Messages
+"inbox"					= "Messages";
+"yourMessages"			= "Voici vos messages";
+"loadmoreButton"		= "Télécharger à nouveau";
+"noMessages"			= "Vous n'avez aucun message pour l'instant.";
+"newMessage"			= "Nouveau Message";
+"reply"					= "Répondre";
+"delete"				= "Eliminer";
+"sendmessage"			= "Sélectionner un ami et écrire un message.";
+"message:"				= "Message:";
+"sendButton"			= "Envoyer";
+"sendMessageTitle"		= "Envoyer message";
+"addressee"				= "Destinataire";
+
+
+// AlertMessages
+"errorMessage"			= "Une erreur s'est produite, réessayer plus tard.";
+"challengeSent"			= "Défi lancé!";
+"challengeAccepted"		= "Défi accepté!";
+"challengeRefused"		= "Défi refusé.";
+"challengeOngoing"		= "Défi déjà en cours!";
+"shortMessageError"		= "Message trop court.\nRéessayez.";
+"messageSent"			= "Message envoyé!";
+"messageNotSent"		= "Le message n'a pas été envoyé. \nRéessayez.";
+"noFriendSelected"		= "Sélectionnez d'abord un ami pour envoyer votre message.";
+"messageDeleted"		= "Message envoyé.";
+"messageNotDeleted"		= "Erreur, le message n'a pas été effacé. Réessayer.";
+"requestSent"			= "Demande envoyée.";
+"requestNotSent"		= "Erreur, demande non envoyée. Réessayer.";
+"requestAccepted"		= "Demande acceptée.";
+"requestRefused"		= "Demande refusée.";
+"pendingFriendRequest"	= "Demande en attente de confirmation";
+"noUserMessage"			= "Utilisateur non trouvé. Connectez vous à nouveau.";

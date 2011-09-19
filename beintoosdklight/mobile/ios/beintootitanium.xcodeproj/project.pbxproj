@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* TiBeintooModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* TiBeintooModule.h */; };
+		24DD6CFA1134B3F500162E58 /* TiBeintooModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiBeintooModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* TiBeintooModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiBeintooModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* TiBeintooModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiBeintooModuleAssets.m */; };
+		702F3FC11416108F0005402F /* Beintoo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F5C1416108F0005402F /* Beintoo+Private.h */; };
+		702F3FC21416108F0005402F /* Beintoo+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F5D1416108F0005402F /* Beintoo+Private.m */; };
+		702F3FC31416108F0005402F /* Beintoo.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F5E1416108F0005402F /* Beintoo.m */; };
+		702F3FC41416108F0005402F /* BeintooAchievements.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F5F1416108F0005402F /* BeintooAchievements.h */; };
+		702F3FC51416108F0005402F /* BeintooAchievements.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F601416108F0005402F /* BeintooAchievements.m */; };
+		702F3FC61416108F0005402F /* BeintooPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F611416108F0005402F /* BeintooPlayer.h */; };
+		702F3FC71416108F0005402F /* BeintooPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F621416108F0005402F /* BeintooPlayer.m */; };
+		702F3FC81416108F0005402F /* BeintooUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F631416108F0005402F /* BeintooUser.h */; };
+		702F3FC91416108F0005402F /* BeintooUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F641416108F0005402F /* BeintooUser.m */; };
+		702F3FCA1416108F0005402F /* BeintooVgood.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F651416108F0005402F /* BeintooVgood.h */; };
+		702F3FCB1416108F0005402F /* BeintooVgood.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F661416108F0005402F /* BeintooVgood.m */; };
+		702F3FCC1416108F0005402F /* BVirtualGood.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F671416108F0005402F /* BVirtualGood.h */; };
+		702F3FCD1416108F0005402F /* BVirtualGood.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F681416108F0005402F /* BVirtualGood.m */; };
+		702F3FCE1416108F0005402F /* Beintoo.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F691416108F0005402F /* Beintoo.h */; };
+		702F3FCF1416108F0005402F /* BeintooAlerts.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F6B1416108F0005402F /* BeintooAlerts.h */; };
+		702F3FD01416108F0005402F /* BeintooAlerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F6C1416108F0005402F /* BeintooAlerts.m */; };
+		702F3FD11416108F0005402F /* BeintooDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F6D1416108F0005402F /* BeintooDevice.h */; };
+		702F3FD21416108F0005402F /* BeintooDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F6E1416108F0005402F /* BeintooDevice.m */; };
+		702F3FD31416108F0005402F /* BeintooMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F6F1416108F0005402F /* BeintooMacros.h */; };
+		702F3FD41416108F0005402F /* BeintooNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F701416108F0005402F /* BeintooNetwork.h */; };
+		702F3FD51416108F0005402F /* BeintooNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F711416108F0005402F /* BeintooNetwork.m */; };
+		702F3FD61416108F0005402F /* Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F721416108F0005402F /* Parser.h */; };
+		702F3FD71416108F0005402F /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F731416108F0005402F /* Parser.m */; };
+		702F3FD81416108F0005402F /* BeintooiPadController.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F751416108F0005402F /* BeintooiPadController.h */; };
+		702F3FD91416108F0005402F /* BeintooiPadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F761416108F0005402F /* BeintooiPadController.m */; };
+		702F3FDA1416108F0005402F /* BeintooMainController.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F771416108F0005402F /* BeintooMainController.h */; };
+		702F3FDB1416108F0005402F /* BeintooMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F781416108F0005402F /* BeintooMainController.m */; };
+		702F3FDC1416108F0005402F /* BeintooNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F791416108F0005402F /* BeintooNavigationController.h */; };
+		702F3FDD1416108F0005402F /* BeintooNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F7A1416108F0005402F /* BeintooNavigationController.m */; };
+		702F3FDE1416108F0005402F /* BeintooVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F7C1416108F0005402F /* BeintooVC.h */; };
+		702F3FDF1416108F0005402F /* BeintooVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F7D1416108F0005402F /* BeintooVC.m */; };
+		702F3FE01416108F0005402F /* BeintooVgoodNavController.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F7E1416108F0005402F /* BeintooVgoodNavController.h */; };
+		702F3FE11416108F0005402F /* BeintooVgoodNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F7F1416108F0005402F /* BeintooVgoodNavController.m */; };
+		702F3FE21416108F0005402F /* BeintooMultipleVgoodVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F811416108F0005402F /* BeintooMultipleVgoodVC.h */; };
+		702F3FE31416108F0005402F /* BeintooMultipleVgoodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F821416108F0005402F /* BeintooMultipleVgoodVC.m */; };
+		702F3FE41416108F0005402F /* BeintooVGoodShowVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F831416108F0005402F /* BeintooVGoodShowVC.h */; };
+		702F3FE51416108F0005402F /* BeintooVGoodShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F841416108F0005402F /* BeintooVGoodShowVC.m */; };
+		702F3FE61416108F0005402F /* BeintooVGoodVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F851416108F0005402F /* BeintooVGoodVC.h */; };
+		702F3FE71416108F0005402F /* BeintooVGoodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F861416108F0005402F /* BeintooVGoodVC.m */; };
+		702F3FE81416108F0005402F /* BPrize.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F871416108F0005402F /* BPrize.h */; };
+		702F3FE91416108F0005402F /* BPrize.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F881416108F0005402F /* BPrize.m */; };
+		702F3FEA1416108F0005402F /* BButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F8A1416108F0005402F /* BButton.h */; };
+		702F3FEB1416108F0005402F /* BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F8B1416108F0005402F /* BButton.m */; };
+		702F3FEC1416108F0005402F /* BGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F8C1416108F0005402F /* BGradientView.h */; };
+		702F3FED1416108F0005402F /* BGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F8D1416108F0005402F /* BGradientView.m */; };
+		702F3FEE1416108F0005402F /* BImageDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F8E1416108F0005402F /* BImageDownload.h */; };
+		702F3FEF1416108F0005402F /* BImageDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F8F1416108F0005402F /* BImageDownload.m */; };
+		702F3FF01416108F0005402F /* BLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F901416108F0005402F /* BLoadingView.h */; };
+		702F3FF11416108F0005402F /* BLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F911416108F0005402F /* BLoadingView.m */; };
+		702F3FF21416108F0005402F /* BMessageAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F921416108F0005402F /* BMessageAnimated.h */; };
+		702F3FF31416108F0005402F /* BMessageAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F931416108F0005402F /* BMessageAnimated.m */; };
+		702F3FF41416108F0005402F /* BScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F941416108F0005402F /* BScrollView.h */; };
+		702F3FF51416108F0005402F /* BScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F951416108F0005402F /* BScrollView.m */; };
+		702F3FF61416108F0005402F /* BTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F961416108F0005402F /* BTableView.h */; };
+		702F3FF71416108F0005402F /* BTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F971416108F0005402F /* BTableView.m */; };
+		702F3FF81416108F0005402F /* BTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F981416108F0005402F /* BTableViewCell.h */; };
+		702F3FF91416108F0005402F /* BTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F991416108F0005402F /* BTableViewCell.m */; };
+		702F3FFA1416108F0005402F /* BView.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F9A1416108F0005402F /* BView.h */; };
+		702F3FFB1416108F0005402F /* BView.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3F9B1416108F0005402F /* BView.m */; };
+		702F3FFC1416108F0005402F /* BeintooMainDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3F9D1416108F0005402F /* BeintooMainDelegate.h */; };
+		702F3FFD1416108F0005402F /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3FB41416108F0005402F /* JSON.h */; };
+		702F3FFE1416108F0005402F /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3FB51416108F0005402F /* NSObject+SBJSON.h */; };
+		702F3FFF1416108F0005402F /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3FB61416108F0005402F /* NSObject+SBJSON.m */; };
+		702F40001416108F0005402F /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3FB71416108F0005402F /* NSString+SBJSON.h */; };
+		702F40011416108F0005402F /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3FB81416108F0005402F /* NSString+SBJSON.m */; };
+		702F40021416108F0005402F /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3FB91416108F0005402F /* SBJSON.h */; };
+		702F40031416108F0005402F /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3FBA1416108F0005402F /* SBJSON.m */; };
+		702F40041416108F0005402F /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3FBB1416108F0005402F /* SBJsonBase.h */; };
+		702F40051416108F0005402F /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3FBC1416108F0005402F /* SBJsonBase.m */; };
+		702F40061416108F0005402F /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3FBD1416108F0005402F /* SBJsonParser.h */; };
+		702F40071416108F0005402F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3FBE1416108F0005402F /* SBJsonParser.m */; };
+		702F40081416108F0005402F /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F3FBF1416108F0005402F /* SBJsonWriter.h */; };
+		702F40091416108F0005402F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F3FC01416108F0005402F /* SBJsonWriter.m */; };
+		702F400D1416109E0005402F /* TiBeintooPlayerProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F400B1416109E0005402F /* TiBeintooPlayerProxy.h */; };
+		702F400E1416109E0005402F /* TiBeintooPlayerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F400C1416109E0005402F /* TiBeintooPlayerProxy.m */; };
+		7030825A141A0B25003FB32A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70308259141A0B25003FB32A /* CoreLocation.framework */; };
+		7030825C141A0B3F003FB32A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7030825B141A0B3F003FB32A /* QuartzCore.framework */; };
+		7030825E141A0B5F003FB32A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7030825D141A0B5F003FB32A /* CFNetwork.framework */; };
+		70308260141A0B66003FB32A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7030825F141A0B66003FB32A /* SystemConfiguration.framework */; };
+		70E6C98D1426A18F0042D4FD /* TiBeintooUserProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E6C98B1426A18F0042D4FD /* TiBeintooUserProxy.h */; };
+		70E6C98E1426A18F0042D4FD /* TiBeintooUserProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E6C98C1426A18F0042D4FD /* TiBeintooUserProxy.m */; };
+		70E6C994142783DB0042D4FD /* TiBeintooVgoodProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E6C992142783DB0042D4FD /* TiBeintooVgoodProxy.h */; };
+		70E6C995142783DB0042D4FD /* TiBeintooVgoodProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E6C993142783DB0042D4FD /* TiBeintooVgoodProxy.m */; };
+		AA747D9F0F9514B9006C5449 /* TiBeintoo_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiBeintoo_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = beintootitanium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* TiBeintooModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiBeintooModule.h; path = Classes/TiBeintooModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* TiBeintooModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiBeintooModule.m; path = Classes/TiBeintooModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* TiBeintooModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiBeintooModuleAssets.h; path = Classes/TiBeintooModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* TiBeintooModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiBeintooModuleAssets.m; path = Classes/TiBeintooModuleAssets.m; sourceTree = "<group>"; };
+		702F3F5C1416108F0005402F /* Beintoo+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Beintoo+Private.h"; sourceTree = "<group>"; };
+		702F3F5D1416108F0005402F /* Beintoo+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Beintoo+Private.m"; sourceTree = "<group>"; };
+		702F3F5E1416108F0005402F /* Beintoo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beintoo.m; sourceTree = "<group>"; };
+		702F3F5F1416108F0005402F /* BeintooAchievements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooAchievements.h; sourceTree = "<group>"; };
+		702F3F601416108F0005402F /* BeintooAchievements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooAchievements.m; sourceTree = "<group>"; };
+		702F3F611416108F0005402F /* BeintooPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooPlayer.h; sourceTree = "<group>"; };
+		702F3F621416108F0005402F /* BeintooPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooPlayer.m; sourceTree = "<group>"; };
+		702F3F631416108F0005402F /* BeintooUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooUser.h; sourceTree = "<group>"; };
+		702F3F641416108F0005402F /* BeintooUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooUser.m; sourceTree = "<group>"; };
+		702F3F651416108F0005402F /* BeintooVgood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooVgood.h; sourceTree = "<group>"; };
+		702F3F661416108F0005402F /* BeintooVgood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooVgood.m; sourceTree = "<group>"; };
+		702F3F671416108F0005402F /* BVirtualGood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVirtualGood.h; sourceTree = "<group>"; };
+		702F3F681416108F0005402F /* BVirtualGood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVirtualGood.m; sourceTree = "<group>"; };
+		702F3F691416108F0005402F /* Beintoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beintoo.h; sourceTree = "<group>"; };
+		702F3F6B1416108F0005402F /* BeintooAlerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooAlerts.h; sourceTree = "<group>"; };
+		702F3F6C1416108F0005402F /* BeintooAlerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooAlerts.m; sourceTree = "<group>"; };
+		702F3F6D1416108F0005402F /* BeintooDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooDevice.h; sourceTree = "<group>"; };
+		702F3F6E1416108F0005402F /* BeintooDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooDevice.m; sourceTree = "<group>"; };
+		702F3F6F1416108F0005402F /* BeintooMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooMacros.h; sourceTree = "<group>"; };
+		702F3F701416108F0005402F /* BeintooNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooNetwork.h; sourceTree = "<group>"; };
+		702F3F711416108F0005402F /* BeintooNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooNetwork.m; sourceTree = "<group>"; };
+		702F3F721416108F0005402F /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		702F3F731416108F0005402F /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		702F3F751416108F0005402F /* BeintooiPadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooiPadController.h; sourceTree = "<group>"; };
+		702F3F761416108F0005402F /* BeintooiPadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooiPadController.m; sourceTree = "<group>"; };
+		702F3F771416108F0005402F /* BeintooMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooMainController.h; sourceTree = "<group>"; };
+		702F3F781416108F0005402F /* BeintooMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooMainController.m; sourceTree = "<group>"; };
+		702F3F791416108F0005402F /* BeintooNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooNavigationController.h; sourceTree = "<group>"; };
+		702F3F7A1416108F0005402F /* BeintooNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooNavigationController.m; sourceTree = "<group>"; };
+		702F3F7C1416108F0005402F /* BeintooVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooVC.h; sourceTree = "<group>"; };
+		702F3F7D1416108F0005402F /* BeintooVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooVC.m; sourceTree = "<group>"; };
+		702F3F7E1416108F0005402F /* BeintooVgoodNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooVgoodNavController.h; sourceTree = "<group>"; };
+		702F3F7F1416108F0005402F /* BeintooVgoodNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooVgoodNavController.m; sourceTree = "<group>"; };
+		702F3F811416108F0005402F /* BeintooMultipleVgoodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooMultipleVgoodVC.h; sourceTree = "<group>"; };
+		702F3F821416108F0005402F /* BeintooMultipleVgoodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooMultipleVgoodVC.m; sourceTree = "<group>"; };
+		702F3F831416108F0005402F /* BeintooVGoodShowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooVGoodShowVC.h; sourceTree = "<group>"; };
+		702F3F841416108F0005402F /* BeintooVGoodShowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooVGoodShowVC.m; sourceTree = "<group>"; };
+		702F3F851416108F0005402F /* BeintooVGoodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooVGoodVC.h; sourceTree = "<group>"; };
+		702F3F861416108F0005402F /* BeintooVGoodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeintooVGoodVC.m; sourceTree = "<group>"; };
+		702F3F871416108F0005402F /* BPrize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPrize.h; sourceTree = "<group>"; };
+		702F3F881416108F0005402F /* BPrize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPrize.m; sourceTree = "<group>"; };
+		702F3F8A1416108F0005402F /* BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BButton.h; sourceTree = "<group>"; };
+		702F3F8B1416108F0005402F /* BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BButton.m; sourceTree = "<group>"; };
+		702F3F8C1416108F0005402F /* BGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGradientView.h; sourceTree = "<group>"; };
+		702F3F8D1416108F0005402F /* BGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGradientView.m; sourceTree = "<group>"; };
+		702F3F8E1416108F0005402F /* BImageDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BImageDownload.h; sourceTree = "<group>"; };
+		702F3F8F1416108F0005402F /* BImageDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BImageDownload.m; sourceTree = "<group>"; };
+		702F3F901416108F0005402F /* BLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLoadingView.h; sourceTree = "<group>"; };
+		702F3F911416108F0005402F /* BLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLoadingView.m; sourceTree = "<group>"; };
+		702F3F921416108F0005402F /* BMessageAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMessageAnimated.h; sourceTree = "<group>"; };
+		702F3F931416108F0005402F /* BMessageAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMessageAnimated.m; sourceTree = "<group>"; };
+		702F3F941416108F0005402F /* BScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BScrollView.h; sourceTree = "<group>"; };
+		702F3F951416108F0005402F /* BScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BScrollView.m; sourceTree = "<group>"; };
+		702F3F961416108F0005402F /* BTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTableView.h; sourceTree = "<group>"; };
+		702F3F971416108F0005402F /* BTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTableView.m; sourceTree = "<group>"; };
+		702F3F981416108F0005402F /* BTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTableViewCell.h; sourceTree = "<group>"; };
+		702F3F991416108F0005402F /* BTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTableViewCell.m; sourceTree = "<group>"; };
+		702F3F9A1416108F0005402F /* BView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BView.h; sourceTree = "<group>"; };
+		702F3F9B1416108F0005402F /* BView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BView.m; sourceTree = "<group>"; };
+		702F3F9D1416108F0005402F /* BeintooMainDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeintooMainDelegate.h; sourceTree = "<group>"; };
+		702F3F9F1416108F0005402F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BeintooLocalizable.strings; sourceTree = "<group>"; };
+		702F3FA01416108F0005402F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/BeintooLocalizable.strings; sourceTree = "<group>"; };
+		702F3FA11416108F0005402F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/BeintooLocalizable.strings; sourceTree = "<group>"; };
+		702F3FA51416108F0005402F /* popupCloseBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popupCloseBtn.png; sourceTree = "<group>"; };
+		702F3FA61416108F0005402F /* popupCloseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popupCloseBtn@2x.png"; sourceTree = "<group>"; };
+		702F3FA81416108F0005402F /* bar_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_close.png; sourceTree = "<group>"; };
+		702F3FA91416108F0005402F /* beintoo_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beintoo_icon.png; sourceTree = "<group>"; };
+		702F3FAA1416108F0005402F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		702F3FAC1416108F0005402F /* BeintooMainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeintooMainController.xib; sourceTree = "<group>"; };
+		702F3FAD1416108F0005402F /* BeintooMultipleVgoodVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeintooMultipleVgoodVC.xib; sourceTree = "<group>"; };
+		702F3FAE1416108F0005402F /* BeintooVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeintooVC.xib; sourceTree = "<group>"; };
+		702F3FAF1416108F0005402F /* BeintooVGoodShowVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeintooVGoodShowVC.xib; sourceTree = "<group>"; };
+		702F3FB01416108F0005402F /* BeintooVGoodVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeintooVGoodVC.xib; sourceTree = "<group>"; };
+		702F3FB41416108F0005402F /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		702F3FB51416108F0005402F /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		702F3FB61416108F0005402F /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		702F3FB71416108F0005402F /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		702F3FB81416108F0005402F /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		702F3FB91416108F0005402F /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		702F3FBA1416108F0005402F /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		702F3FBB1416108F0005402F /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		702F3FBC1416108F0005402F /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		702F3FBD1416108F0005402F /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		702F3FBE1416108F0005402F /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		702F3FBF1416108F0005402F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		702F3FC01416108F0005402F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		702F400B1416109E0005402F /* TiBeintooPlayerProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiBeintooPlayerProxy.h; path = Classes/TiBeintooPlayerProxy.h; sourceTree = "<group>"; };
+		702F400C1416109E0005402F /* TiBeintooPlayerProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiBeintooPlayerProxy.m; path = Classes/TiBeintooPlayerProxy.m; sourceTree = "<group>"; };
+		70308259141A0B25003FB32A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7030825B141A0B3F003FB32A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7030825D141A0B5F003FB32A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7030825F141A0B66003FB32A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		70E6C98B1426A18F0042D4FD /* TiBeintooUserProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiBeintooUserProxy.h; path = Classes/TiBeintooUserProxy.h; sourceTree = "<group>"; };
+		70E6C98C1426A18F0042D4FD /* TiBeintooUserProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiBeintooUserProxy.m; path = Classes/TiBeintooUserProxy.m; sourceTree = "<group>"; };
+		70E6C992142783DB0042D4FD /* TiBeintooVgoodProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiBeintooVgoodProxy.h; path = Classes/TiBeintooVgoodProxy.h; sourceTree = "<group>"; };
+		70E6C993142783DB0042D4FD /* TiBeintooVgoodProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiBeintooVgoodProxy.m; path = Classes/TiBeintooVgoodProxy.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* TiBeintoo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiBeintoo_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libTiBeintoo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTiBeintoo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70308260141A0B66003FB32A /* SystemConfiguration.framework in Frameworks */,
+				7030825E141A0B5F003FB32A /* CFNetwork.framework in Frameworks */,
+				7030825C141A0B3F003FB32A /* QuartzCore.framework in Frameworks */,
+				7030825A141A0B25003FB32A /* CoreLocation.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libTiBeintoo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* beintootitanium */ = {
+			isa = PBXGroup;
+			children = (
+				702F3F5A1416108F0005402F /* SDKBeintoo_Beta */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = beintootitanium;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7030825F141A0B66003FB32A /* SystemConfiguration.framework */,
+				7030825D141A0B5F003FB32A /* CFNetwork.framework */,
+				7030825B141A0B3F003FB32A /* QuartzCore.framework */,
+				70308259141A0B25003FB32A /* CoreLocation.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24DE9E0F11C5FE74003F90F6 /* TiBeintooModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* TiBeintooModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* TiBeintooModule.h */,
+				24DD6CF81134B3F500162E58 /* TiBeintooModule.m */,
+				702F400B1416109E0005402F /* TiBeintooPlayerProxy.h */,
+				702F400C1416109E0005402F /* TiBeintooPlayerProxy.m */,
+				70E6C98B1426A18F0042D4FD /* TiBeintooUserProxy.h */,
+				70E6C98C1426A18F0042D4FD /* TiBeintooUserProxy.m */,
+				70E6C992142783DB0042D4FD /* TiBeintooVgoodProxy.h */,
+				70E6C993142783DB0042D4FD /* TiBeintooVgoodProxy.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* TiBeintoo_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		702F3F5A1416108F0005402F /* SDKBeintoo_Beta */ = {
+			isa = PBXGroup;
+			children = (
+				702F3F5B1416108F0005402F /* API */,
+				702F3F691416108F0005402F /* Beintoo.h */,
+				702F3F741416108F0005402F /* Controllers */,
+				702F3F6A1416108F0005402F /* Common */,
+				702F3F891416108F0005402F /* Custom */,
+				702F3F9C1416108F0005402F /* Delegates */,
+				702F3F9E1416108F0005402F /* BeintooLocalizable.strings */,
+				702F3FA21416108F0005402F /* Res */,
+				702F3FB11416108F0005402F /* Social */,
+			);
+			name = SDKBeintoo_Beta;
+			path = Classes/SDKBeintoo_Beta;
+			sourceTree = "<group>";
+		};
+		702F3F5B1416108F0005402F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				702F3F5E1416108F0005402F /* Beintoo.m */,
+				702F3F5C1416108F0005402F /* Beintoo+Private.h */,
+				702F3F5D1416108F0005402F /* Beintoo+Private.m */,
+				702F3F5F1416108F0005402F /* BeintooAchievements.h */,
+				702F3F601416108F0005402F /* BeintooAchievements.m */,
+				702F3F611416108F0005402F /* BeintooPlayer.h */,
+				702F3F621416108F0005402F /* BeintooPlayer.m */,
+				702F3F631416108F0005402F /* BeintooUser.h */,
+				702F3F641416108F0005402F /* BeintooUser.m */,
+				702F3F651416108F0005402F /* BeintooVgood.h */,
+				702F3F661416108F0005402F /* BeintooVgood.m */,
+				702F3F671416108F0005402F /* BVirtualGood.h */,
+				702F3F681416108F0005402F /* BVirtualGood.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		702F3F6A1416108F0005402F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				702F3F6B1416108F0005402F /* BeintooAlerts.h */,
+				702F3F6C1416108F0005402F /* BeintooAlerts.m */,
+				702F3F6D1416108F0005402F /* BeintooDevice.h */,
+				702F3F6E1416108F0005402F /* BeintooDevice.m */,
+				702F3F6F1416108F0005402F /* BeintooMacros.h */,
+				702F3F701416108F0005402F /* BeintooNetwork.h */,
+				702F3F711416108F0005402F /* BeintooNetwork.m */,
+				702F3F721416108F0005402F /* Parser.h */,
+				702F3F731416108F0005402F /* Parser.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		702F3F741416108F0005402F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				702F3F751416108F0005402F /* BeintooiPadController.h */,
+				702F3F761416108F0005402F /* BeintooiPadController.m */,
+				702F3F771416108F0005402F /* BeintooMainController.h */,
+				702F3F781416108F0005402F /* BeintooMainController.m */,
+				702F3F791416108F0005402F /* BeintooNavigationController.h */,
+				702F3F7A1416108F0005402F /* BeintooNavigationController.m */,
+				702F3F7B1416108F0005402F /* BeintooPanel */,
+				702F3F7E1416108F0005402F /* BeintooVgoodNavController.h */,
+				702F3F7F1416108F0005402F /* BeintooVgoodNavController.m */,
+				702F3F801416108F0005402F /* Vgood */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		702F3F7B1416108F0005402F /* BeintooPanel */ = {
+			isa = PBXGroup;
+			children = (
+				702F3F7C1416108F0005402F /* BeintooVC.h */,
+				702F3F7D1416108F0005402F /* BeintooVC.m */,
+			);
+			path = BeintooPanel;
+			sourceTree = "<group>";
+		};
+		702F3F801416108F0005402F /* Vgood */ = {
+			isa = PBXGroup;
+			children = (
+				702F3F811416108F0005402F /* BeintooMultipleVgoodVC.h */,
+				702F3F821416108F0005402F /* BeintooMultipleVgoodVC.m */,
+				702F3F831416108F0005402F /* BeintooVGoodShowVC.h */,
+				702F3F841416108F0005402F /* BeintooVGoodShowVC.m */,
+				702F3F851416108F0005402F /* BeintooVGoodVC.h */,
+				702F3F861416108F0005402F /* BeintooVGoodVC.m */,
+				702F3F871416108F0005402F /* BPrize.h */,
+				702F3F881416108F0005402F /* BPrize.m */,
+			);
+			path = Vgood;
+			sourceTree = "<group>";
+		};
+		702F3F891416108F0005402F /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				702F3F8A1416108F0005402F /* BButton.h */,
+				702F3F8B1416108F0005402F /* BButton.m */,
+				702F3F8C1416108F0005402F /* BGradientView.h */,
+				702F3F8D1416108F0005402F /* BGradientView.m */,
+				702F3F8E1416108F0005402F /* BImageDownload.h */,
+				702F3F8F1416108F0005402F /* BImageDownload.m */,
+				702F3F901416108F0005402F /* BLoadingView.h */,
+				702F3F911416108F0005402F /* BLoadingView.m */,
+				702F3F921416108F0005402F /* BMessageAnimated.h */,
+				702F3F931416108F0005402F /* BMessageAnimated.m */,
+				702F3F941416108F0005402F /* BScrollView.h */,
+				702F3F951416108F0005402F /* BScrollView.m */,
+				702F3F961416108F0005402F /* BTableView.h */,
+				702F3F971416108F0005402F /* BTableView.m */,
+				702F3F981416108F0005402F /* BTableViewCell.h */,
+				702F3F991416108F0005402F /* BTableViewCell.m */,
+				702F3F9A1416108F0005402F /* BView.h */,
+				702F3F9B1416108F0005402F /* BView.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		702F3F9C1416108F0005402F /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				702F3F9D1416108F0005402F /* BeintooMainDelegate.h */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		702F3FA21416108F0005402F /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				702F3FA31416108F0005402F /* img */,
+				702F3FAB1416108F0005402F /* xib */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		702F3FA31416108F0005402F /* img */ = {
+			isa = PBXGroup;
+			children = (
+				702F3FA41416108F0005402F /* buttons */,
+				702F3FA71416108F0005402F /* logos */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		702F3FA41416108F0005402F /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				702F3FA51416108F0005402F /* popupCloseBtn.png */,
+				702F3FA61416108F0005402F /* popupCloseBtn@2x.png */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		702F3FA71416108F0005402F /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				702F3FA81416108F0005402F /* bar_close.png */,
+				702F3FA91416108F0005402F /* beintoo_icon.png */,
+				702F3FAA1416108F0005402F /* logo.png */,
+			);
+			path = logos;
+			sourceTree = "<group>";
+		};
+		702F3FAB1416108F0005402F /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				702F3FAC1416108F0005402F /* BeintooMainController.xib */,
+				702F3FAD1416108F0005402F /* BeintooMultipleVgoodVC.xib */,
+				702F3FAE1416108F0005402F /* BeintooVC.xib */,
+				702F3FAF1416108F0005402F /* BeintooVGoodShowVC.xib */,
+				702F3FB01416108F0005402F /* BeintooVGoodVC.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		702F3FB11416108F0005402F /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				702F3FB21416108F0005402F /* facebook */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		702F3FB21416108F0005402F /* facebook */ = {
+			isa = PBXGroup;
+			children = (
+				702F3FB31416108F0005402F /* JSON */,
+			);
+			path = facebook;
+			sourceTree = "<group>";
+		};
+		702F3FB31416108F0005402F /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				702F3FB41416108F0005402F /* JSON.h */,
+				702F3FB51416108F0005402F /* NSObject+SBJSON.h */,
+				702F3FB61416108F0005402F /* NSObject+SBJSON.m */,
+				702F3FB71416108F0005402F /* NSString+SBJSON.h */,
+				702F3FB81416108F0005402F /* NSString+SBJSON.m */,
+				702F3FB91416108F0005402F /* SBJSON.h */,
+				702F3FBA1416108F0005402F /* SBJSON.m */,
+				702F3FBB1416108F0005402F /* SBJsonBase.h */,
+				702F3FBC1416108F0005402F /* SBJsonBase.m */,
+				702F3FBD1416108F0005402F /* SBJsonParser.h */,
+				702F3FBE1416108F0005402F /* SBJsonParser.m */,
+				702F3FBF1416108F0005402F /* SBJsonWriter.h */,
+				702F3FC01416108F0005402F /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* TiBeintoo_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* TiBeintooModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* TiBeintooModuleAssets.h in Headers */,
+				702F3FC11416108F0005402F /* Beintoo+Private.h in Headers */,
+				702F3FC41416108F0005402F /* BeintooAchievements.h in Headers */,
+				702F3FC61416108F0005402F /* BeintooPlayer.h in Headers */,
+				702F3FC81416108F0005402F /* BeintooUser.h in Headers */,
+				702F3FCA1416108F0005402F /* BeintooVgood.h in Headers */,
+				702F3FCC1416108F0005402F /* BVirtualGood.h in Headers */,
+				702F3FCE1416108F0005402F /* Beintoo.h in Headers */,
+				702F3FCF1416108F0005402F /* BeintooAlerts.h in Headers */,
+				702F3FD11416108F0005402F /* BeintooDevice.h in Headers */,
+				702F3FD31416108F0005402F /* BeintooMacros.h in Headers */,
+				702F3FD41416108F0005402F /* BeintooNetwork.h in Headers */,
+				702F3FD61416108F0005402F /* Parser.h in Headers */,
+				702F3FD81416108F0005402F /* BeintooiPadController.h in Headers */,
+				702F3FDA1416108F0005402F /* BeintooMainController.h in Headers */,
+				702F3FDC1416108F0005402F /* BeintooNavigationController.h in Headers */,
+				702F3FDE1416108F0005402F /* BeintooVC.h in Headers */,
+				702F3FE01416108F0005402F /* BeintooVgoodNavController.h in Headers */,
+				702F3FE21416108F0005402F /* BeintooMultipleVgoodVC.h in Headers */,
+				702F3FE41416108F0005402F /* BeintooVGoodShowVC.h in Headers */,
+				702F3FE61416108F0005402F /* BeintooVGoodVC.h in Headers */,
+				702F3FE81416108F0005402F /* BPrize.h in Headers */,
+				702F3FEA1416108F0005402F /* BButton.h in Headers */,
+				702F3FEC1416108F0005402F /* BGradientView.h in Headers */,
+				702F3FEE1416108F0005402F /* BImageDownload.h in Headers */,
+				702F3FF01416108F0005402F /* BLoadingView.h in Headers */,
+				702F3FF21416108F0005402F /* BMessageAnimated.h in Headers */,
+				702F3FF41416108F0005402F /* BScrollView.h in Headers */,
+				702F3FF61416108F0005402F /* BTableView.h in Headers */,
+				702F3FF81416108F0005402F /* BTableViewCell.h in Headers */,
+				702F3FFA1416108F0005402F /* BView.h in Headers */,
+				702F3FFC1416108F0005402F /* BeintooMainDelegate.h in Headers */,
+				702F3FFD1416108F0005402F /* JSON.h in Headers */,
+				702F3FFE1416108F0005402F /* NSObject+SBJSON.h in Headers */,
+				702F40001416108F0005402F /* NSString+SBJSON.h in Headers */,
+				702F40021416108F0005402F /* SBJSON.h in Headers */,
+				702F40041416108F0005402F /* SBJsonBase.h in Headers */,
+				702F40061416108F0005402F /* SBJsonParser.h in Headers */,
+				702F40081416108F0005402F /* SBJsonWriter.h in Headers */,
+				702F400D1416109E0005402F /* TiBeintooPlayerProxy.h in Headers */,
+				70E6C98D1426A18F0042D4FD /* TiBeintooUserProxy.h in Headers */,
+				70E6C994142783DB0042D4FD /* TiBeintooVgoodProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* beintootitanium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "beintootitanium" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = beintootitanium;
+			productName = beintootitanium;
+			productReference = D2AAC07E0554694100DB518D /* libTiBeintoo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "beintootitanium" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				fr,
+				it,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* beintootitanium */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* beintootitanium */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* TiBeintooModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* TiBeintooModuleAssets.m in Sources */,
+				702F3FC21416108F0005402F /* Beintoo+Private.m in Sources */,
+				702F3FC31416108F0005402F /* Beintoo.m in Sources */,
+				702F3FC51416108F0005402F /* BeintooAchievements.m in Sources */,
+				702F3FC71416108F0005402F /* BeintooPlayer.m in Sources */,
+				702F3FC91416108F0005402F /* BeintooUser.m in Sources */,
+				702F3FCB1416108F0005402F /* BeintooVgood.m in Sources */,
+				702F3FCD1416108F0005402F /* BVirtualGood.m in Sources */,
+				702F3FD01416108F0005402F /* BeintooAlerts.m in Sources */,
+				702F3FD21416108F0005402F /* BeintooDevice.m in Sources */,
+				702F3FD51416108F0005402F /* BeintooNetwork.m in Sources */,
+				702F3FD71416108F0005402F /* Parser.m in Sources */,
+				702F3FD91416108F0005402F /* BeintooiPadController.m in Sources */,
+				702F3FDB1416108F0005402F /* BeintooMainController.m in Sources */,
+				702F3FDD1416108F0005402F /* BeintooNavigationController.m in Sources */,
+				702F3FDF1416108F0005402F /* BeintooVC.m in Sources */,
+				702F3FE11416108F0005402F /* BeintooVgoodNavController.m in Sources */,
+				702F3FE31416108F0005402F /* BeintooMultipleVgoodVC.m in Sources */,
+				702F3FE51416108F0005402F /* BeintooVGoodShowVC.m in Sources */,
+				702F3FE71416108F0005402F /* BeintooVGoodVC.m in Sources */,
+				702F3FE91416108F0005402F /* BPrize.m in Sources */,
+				702F3FEB1416108F0005402F /* BButton.m in Sources */,
+				702F3FED1416108F0005402F /* BGradientView.m in Sources */,
+				702F3FEF1416108F0005402F /* BImageDownload.m in Sources */,
+				702F3FF11416108F0005402F /* BLoadingView.m in Sources */,
+				702F3FF31416108F0005402F /* BMessageAnimated.m in Sources */,
+				702F3FF51416108F0005402F /* BScrollView.m in Sources */,
+				702F3FF71416108F0005402F /* BTableView.m in Sources */,
+				702F3FF91416108F0005402F /* BTableViewCell.m in Sources */,
+				702F3FFB1416108F0005402F /* BView.m in Sources */,
+				702F3FFF1416108F0005402F /* NSObject+SBJSON.m in Sources */,
+				702F40011416108F0005402F /* NSString+SBJSON.m in Sources */,
+				702F40031416108F0005402F /* SBJSON.m in Sources */,
+				702F40051416108F0005402F /* SBJsonBase.m in Sources */,
+				702F40071416108F0005402F /* SBJsonParser.m in Sources */,
+				702F40091416108F0005402F /* SBJsonWriter.m in Sources */,
+				702F400E1416109E0005402F /* TiBeintooPlayerProxy.m in Sources */,
+				70E6C98E1426A18F0042D4FD /* TiBeintooUserProxy.m in Sources */,
+				70E6C995142783DB0042D4FD /* TiBeintooVgoodProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* beintootitanium */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		702F3F9E1416108F0005402F /* BeintooLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702F3F9F1416108F0005402F /* en */,
+				702F3FA01416108F0005402F /* fr */,
+				702F3FA11416108F0005402F /* it */,
+			);
+			name = BeintooLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/TiBeintoo.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiBeintoo_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = TiBeintoo;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/TiBeintoo.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiBeintoo_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = TiBeintoo;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "beintootitanium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "beintootitanium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
